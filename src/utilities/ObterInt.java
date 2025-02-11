@@ -8,8 +8,12 @@ public class ObterInt {
 	public static int obterInt(Scanner scanner, String prompt, int opCondicaoValidar) {
 		int valor = 0;
 		boolean inputValido = false;
+		boolean sairDaOp = false;
 		while (!inputValido) {
 			try {
+				if(sairDaOp) {
+					//fazer isso com calma depois
+				}
 				System.out.print(prompt);
 				valor = scanner.nextInt();
 				validarValor(opCondicaoValidar, valor);
