@@ -10,7 +10,9 @@ public class MenuController {
 	public static void mostrarMenu() {
 		StringBuilder sb = new StringBuilder();
 	    sb.append(GerenciadorMensagens.MENU_CONTROLLER_CABECALHO_MENU)
-	      .append(GerenciadorMensagens.MENU_CONTROLLER_OP_0);
+	      .append(GerenciadorMensagens.MENU_CONTROLLER_OP_0)
+	      .append(GerenciadorMensagens.MENU_CONTROLLER_OP_1)
+	      .append("\n");
 	    System.out.print(sb);
 	}
 	

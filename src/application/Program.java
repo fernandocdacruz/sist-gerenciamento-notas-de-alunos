@@ -10,7 +10,6 @@ import utilities.GerenciadorMensagens;
 public class Program {
 
 	public static void main(String[] args) {
-		
 		Locale.setDefault(Locale.US);
 		try (Scanner scanner = new Scanner(System.in)) {
 			System.out.println(GerenciadorMensagens.PROGRAM_MENSAGEM_ABERTURA);
