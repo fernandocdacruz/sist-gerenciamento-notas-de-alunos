@@ -12,6 +12,8 @@ public class MenuController {
 	    sb.append(GerenciadorMensagens.MENU_CONTROLLER_CABECALHO_MENU)
 	      .append(GerenciadorMensagens.MENU_CONTROLLER_OP_0)
 	      .append(GerenciadorMensagens.MENU_CONTROLLER_OP_1)
+	      .append(GerenciadorMensagens.MENU_CONTROLLER_OP_2)
+	      .append(GerenciadorMensagens.MENU_CONTROLLER_OP_3)
 	      .append("\n");
 	    System.out.print(sb);
 	}

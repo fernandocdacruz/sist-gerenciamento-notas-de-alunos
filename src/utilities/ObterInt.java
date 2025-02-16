@@ -37,12 +37,15 @@ public class ObterInt {
 		case 1: validarCond1(valor);
 			break;
 		case 2: validarCond2(valor);
+			break;
+		case 3: validarCond3(valor);
+			break;
 		}
 	}
 	
 	//Menu Controller
 	public static void validarCond1(int valor) {
-		if (valor < 0 || valor > 2) {
+		if (valor < 0 || valor > 3) {
 			throw new IllegalArgumentException(GerenciadorMensagens.OBTER_INT_OPCAO_INVALIDA);
 		}
 	}
@@ -51,6 +54,13 @@ public class ObterInt {
 	public static void validarCond2(int valor) {
 		if (valor < 1 || valor > 2) {
 			throw new IllegalArgumentException(GerenciadorMensagens.OBTER_INT_OPCAO_INVALIDA);
+		}
+	}
+	
+	//Validar id
+	public static void validarCond3(int valor) {
+		if (valor < 1) {
+			throw new IllegalArgumentException(GerenciadorMensagens.OBTER_INT_ID_INVALIDO);
 		}
 	}
 	
